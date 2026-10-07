@@ -1,7 +1,7 @@
 # Global Pandemic Infection Spread & Mathematical Matrix Analysis
 
 This repository contains an advanced numerical simulation model that tracks virus transmission dynamics across a population network using differential equations.
-![Global Pandemic Curve Output](output%20(6).png)
+![Global Pandemic Curve Output](Output%20(6).png)
 
 ### Technical Architecture Core:
 * **Python Basics** (Backend Vector Processing Engine)
