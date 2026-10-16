@@ -24,6 +24,6 @@ The project produces a line chart showing the simulated changes in infection and
 
 ## Output
 
-[Simulation Output](Output%20(6).png)
+![Simulation Output](Output%20(6).png)
 
 
