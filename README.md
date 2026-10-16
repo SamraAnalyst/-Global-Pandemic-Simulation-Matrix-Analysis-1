@@ -1,16 +1,29 @@
-# Global Pandemic Infection Spread & Mathematical Matrix Analysis
+# Global Pandemic Infection Spread Simulation
 
-This repository contains an advanced numerical simulation model that tracks virus transmission dynamics across a population network using differential equations.
-![Global Pandemic Curve Output](Output%20(6).png)
+## Objective
+This project simulates infection spread and recovery patterns over a 90-day period using a simple mathematical model.
 
-### Technical Architecture Core:
-* **Python Basics** (Backend Vector Processing Engine)
-* **NumPy Arrays** (Iterative Euler Integration loops and state-space arrays)
-* **Pandas Panel Logs** (Tabular structural logs formatting)
-* **Matplotlib** (Dynamic line plotting for epidemic curves tracking)
+## Tools
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Euler integration
 
-### Mathematical Parameters Configured:
-* Base Population Vector: 100,000 hosts
-* Beta (Transmission rate index): 0.4
-* Gamma (Recovery time index): 0.1
-* Simulation Window Matrix: 90 Days loop steps
+## Model Parameters
+- Initial population: 100,000
+- Transmission rate (beta): 0.4
+- Recovery rate (gamma): 0.1
+- Simulation period: 90 days
+
+## Method
+The model uses NumPy arrays and iterative calculations to represent changes in susceptible, infected, and recovered populations over time. Pandas is used to organise the simulation results, while Matplotlib is used to visualise the epidemic curve.
+
+## Result
+The project produces a line chart showing the simulated changes in infection and recovery levels throughout the selected period.
+
+## Output
+
+[Simulation Output](Output%20(6).png)
+
+
